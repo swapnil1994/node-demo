@@ -1,0 +1,10 @@
+{
+    "development":{
+        "PORT": 3000,
+        "MONGODB_URI":"mongodb+srv://shweta:1234@cluster0.n3sqa.mongodb.net/meanstackdb?retryWrites=true&w=majority"
+    },
+    "production": {
+        "PORT":80,
+        "MONGODB_URI":"mongodb+srv://<username>:<password>@cluster0.n3sqa.mongodb.net/meanstackdb?retryWrites=true&w=majority"
+    }
+}
